@@ -1,4 +1,4 @@
-def method_name():
+def get_name():
     name = input("Please enter your name: ")
     while name == "":
         print("Invalid Name")
@@ -12,7 +12,7 @@ def print_loop(name):
         print(c, end="")
 
 def main():
-    name = method_name()
+    name = get_name()
 
     print_loop(name)
 
